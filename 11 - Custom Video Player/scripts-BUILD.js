@@ -41,7 +41,6 @@ function scrub(e) {
 
 function toggleFullScreen() {
     if (isFullScreen) {
-        console.log('cancelling')
         video.webkitExitFullScreen();
     } else {
         video.webkitRequestFullScreen();
